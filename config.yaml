@@ -1,0 +1,22 @@
+database:
+  dbname: "marketing_db"
+  user: "your_user"
+  password: "your_password"
+  host: "localhost"
+  port: "5432"
+
+google_ads_api:
+  developer_token: "YOUR_DEVELOPER_TOKEN"
+  client_id: "YOUR_CLIENT_ID"
+  client_secret: "YOUR_CLIENT_SECRET"
+  refresh_token: "YOUR_REFRESH_TOKEN"
+  login_customer_id: "YOUR_LOGIN_CUSTOMER_ID"
+
+yandex_direct_api:
+  token: "YOUR_YANDEX_DIRECT_TOKEN"
+  client_id: "YOUR_YANDEX_DIRECT_CLIENT_ID" # Опционально для некоторых сценариев
+
+facebook_ads_api:
+  access_token: "YOUR_FACEBOOK_ADS_ACCESS_TOKEN"
+  app_id: "YOUR_FACEBOOK_APP_ID"
+  app_secret: "YOUR_FACEBOOK_APP_SECRET"
